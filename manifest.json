@@ -1,0 +1,12 @@
+{
+  "name": "Tumblr nsfw redirect Bypass",
+  "description": "Bypass 'This tumblr may contain sensitive media' and open the blog in the dashboard",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+    "https://*.tumblr.com/*",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
